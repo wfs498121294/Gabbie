@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --safe-top: env(safe-area-inset-top, 20px);
+  --safe-bottom: env(safe-area-inset-bottom, 20px);
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased select-none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+  -webkit-touch-callout: none; /* Disable long press menu */
+}
+
+/* Prevent auto-zoom on inputs in iOS */
+input, textarea, select {
+  font-size: 16px !important;
+}
+
+/* Disable Link Preview in WKWebView */
+a {
+  -webkit-touch-callout: none;
+}
+
+/* Allow selection in inputs */
+input, textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Custom Scrollbar Hide */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

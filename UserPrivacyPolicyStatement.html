@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Periodic Table Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #34D399, #2DD4BF, #60A5FA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes pulse-soft {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+        .animate-pulse-soft { animation: pulse-soft 4s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-200 min-h-screen relative overflow-x-hidden">
+
+    <!-- Back Button removed -->
+
+    <!-- Background Elements -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-900/20 rounded-full blur-[120px] translate-x-1/3 -translate-y-1/4"></div>
+        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-900/20 rounded-full blur-[100px] -translate-x-1/4 translate-y-1/4"></div>
+    </div>
+
+    <div class="relative z-10 max-w-3xl mx-auto px-6 py-12 md:py-20">
+        
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <div class="inline-flex items-center justify-center p-4 bg-gray-900/80 rounded-full mb-6 shadow-xl border border-teal-500/30">
+                <i data-lucide="shield-check" class="w-10 h-10 text-teal-400"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+                <span class="gradient-text">Privacy Policy</span>
+            </h1>
+            <p class="text-gray-400 text-sm max-w-md mx-auto leading-relaxed">
+                We value your trust and are committed to protecting your personal information.
+            </p>
+            <div class="mt-4 inline-block px-3 py-1 bg-gray-800 rounded-full text-xs font-mono text-gray-500 border border-gray-700">
+                Effective Date: January 22, 2026
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="space-y-6">
+
+            <!-- Intro Card -->
+            <div class="glass-panel rounded-2xl p-6 md:p-8 border-l-4 border-l-teal-500">
+                <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                    <i data-lucide="info" class="w-5 h-5 text-teal-500"></i> Introduction
+                </h2>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    This Privacy Policy explains how "Periodic Table Master" ("we", "us", or "our") collects, uses, and discloses information about you when you use our mobile application (the "App"). By using the App, you consent to the processing of your information as described in this policy.
+                </p>
+            </div>
+
+            <!-- Data Collection -->
+            <section class="glass-panel rounded-2xl p-6 md:p-8">
+                <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                    <i data-lucide="database" class="w-5 h-5 text-blue-400"></i> Information We Collect
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="mt-1 w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center shrink-0 border border-gray-700">
+                            <span class="text-xs font-bold text-gray-300">1</span>
+                        </div>
+                        <div>
+                            <h3 class="text-gray-200 font-semibold mb-1">Information You Provide</h3>
+                            <p class="text-gray-400 text-sm">
+                                <strong>User Content:</strong> When you use the "Photo Collection" feature, you may take photos and input data (e.g., element tags). This data is stored locally on your device.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="mt-1 w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center shrink-0 border border-gray-700">
+                            <span class="text-xs font-bold text-gray-300">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-gray-200 font-semibold mb-1">Automatically Collected Information</h3>
+                            <p class="text-gray-400 text-sm">
+                                <strong>Device Information:</strong> We may collect information about the device you use to access the App, including the hardware model, operating system and version.
+                                <br>
+                                <strong>Usage Data:</strong> We may collect anonymous data about your progress (e.g., Quiz scores, unlocked elements) to improve the user experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Permissions -->
+            <section class="glass-panel rounded-2xl p-6 md:p-8">
+                <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                    <i data-lucide="smartphone" class="w-5 h-5 text-purple-400"></i> Device Permissions
+                </h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-900/50 p-4 rounded-xl border border-gray-800">
+                        <div class="flex items-center gap-2 mb-2">
+                            <i data-lucide="camera" class="w-4 h-4 text-pink-400"></i>
+                            <span class="font-semibold text-gray-200 text-sm">Camera</span>
+                        </div>
+                        <p class="text-xs text-gray-500">Required to take photos for your personal element collection.</p>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-xl border border-gray-800">
+                        <div class="flex items-center gap-2 mb-2">
+                            <i data-lucide="image" class="w-4 h-4 text-yellow-400"></i>
+                            <span class="font-semibold text-gray-200 text-sm">Photo Library</span>
+                        </div>
+                        <p class="text-xs text-gray-500">Required to select existing photos for your collection.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Third Parties -->
+            <section class="glass-panel rounded-2xl p-6 md:p-8">
+                <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                    <i data-lucide="share-2" class="w-5 h-5 text-indigo-400"></i> Third-Party Services
+                </h2>
+                <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                    We may use third-party services for analytics and payment processing.
+                </p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm text-gray-400">
+                        <i data-lucide="credit-card" class="w-4 h-4 text-gray-500"></i>
+                        <span><strong>Payments:</strong> All financial transactions are processed by the Apple App Store. We do not store your credit card details.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Children's Privacy -->
+            <section class="glass-panel rounded-2xl p-6 md:p-8">
+                <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                    <i data-lucide="baby" class="w-5 h-5 text-green-400"></i> Children's Privacy
+                </h2>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Our App is intended for general audiences. We do not knowingly collect personal information from children under the age of 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete such information.
+                </p>
+            </section>
+
+            <!-- Contact -->
+            <section class="mt-12 text-center">
+                <p class="text-gray-500 text-sm mb-4">If you have questions about this Privacy Policy, please contact us at:</p>
+                <a href="mailto:Zinr9863@outlook.com" class="text-teal-400 hover:text-teal-300 font-semibold transition-colors flex items-center justify-center gap-2">
+                    <i data-lucide="mail" class="w-4 h-4"></i> Zinr9863@outlook.com
+                </a>
+            </section>
+
+        </main>
+        
+        <footer class="text-center mt-16 text-gray-600 text-xs">
+            <p>&copy; 2026 Periodic Table Master. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Periodic Table Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(31, 41, 55, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #60A5FA, #A78BFA, #F472B6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-200 min-h-screen relative overflow-x-hidden">
+
+    <!-- Back Button removed -->
+
+    <!-- Background Elements -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[120px] translate-x-1/3 translate-y-1/3"></div>
+    </div>
+
+    <div class="relative z-10 max-w-3xl mx-auto px-6 py-12 md:py-20">
+        
+        <!-- Header -->
+        <header class="text-center mb-16 animate-fade-in-up">
+            <div class="inline-flex items-center justify-center p-4 bg-gray-800/50 rounded-2xl mb-6 shadow-xl animate-float border border-gray-700">
+                <i data-lucide="atom" class="w-12 h-12 text-purple-400"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+                <span class="gradient-text">Terms of Service</span>
+            </h1>
+            <p class="text-gray-400 text-sm uppercase tracking-widest font-semibold">
+                Last Updated: January 22, 2026
+            </p>
+        </header>
+
+        <!-- Navigation/Table of Contents (Simple) -->
+        <nav class="flex flex-wrap gap-3 justify-center mb-12 text-xs font-medium text-gray-400">
+            <a href="#acceptance" class="px-4 py-2 bg-gray-900/50 rounded-full hover:bg-gray-800 hover:text-white transition-colors border border-gray-800">Acceptance</a>
+            <a href="#license" class="px-4 py-2 bg-gray-900/50 rounded-full hover:bg-gray-800 hover:text-white transition-colors border border-gray-800">License</a>
+            <a href="#purchases" class="px-4 py-2 bg-gray-900/50 rounded-full hover:bg-gray-800 hover:text-white transition-colors border border-gray-800">Purchases</a>
+            <a href="#content" class="px-4 py-2 bg-gray-900/50 rounded-full hover:bg-gray-800 hover:text-white transition-colors border border-gray-800">User Content</a>
+            <a href="#contact" class="px-4 py-2 bg-gray-900/50 rounded-full hover:bg-gray-800 hover:text-white transition-colors border border-gray-800">Contact</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="space-y-8">
+
+            <!-- Section 1 -->
+            <section id="acceptance" class="glass-panel rounded-2xl p-6 md:p-8 hover:border-purple-500/30 transition-colors duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-blue-500/10 rounded-lg shrink-0">
+                        <i data-lucide="check-circle" class="w-6 h-6 text-blue-400"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold text-white mb-3">1. Acceptance of Terms</h2>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base">
+                            By accessing or using the "Periodic Table Master" application (the "App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of those changes.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="license" class="glass-panel rounded-2xl p-6 md:p-8 hover:border-purple-500/30 transition-colors duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-purple-500/10 rounded-lg shrink-0">
+                        <i data-lucide="key" class="w-6 h-6 text-purple-400"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold text-white mb-3">2. Use License</h2>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base mb-4">
+                            We grant you a personal, non-transferable, non-exclusive license to use the App on your devices for non-commercial, educational, and entertainment purposes.
+                        </p>
+                        <ul class="space-y-2 text-gray-500 text-sm list-disc pl-5">
+                            <li>You may not reverse engineer, decompile, or disassemble the App.</li>
+                            <li>You may not use the App for any illegal or unauthorized purpose.</li>
+                            <li>You may not copy our proprietary element data, quiz logic, or visual assets.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section id="purchases" class="glass-panel rounded-2xl p-6 md:p-8 hover:border-purple-500/30 transition-colors duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-yellow-500/10 rounded-lg shrink-0">
+                        <i data-lucide="coins" class="w-6 h-6 text-yellow-400"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold text-white mb-3">3. In-App Purchases & Virtual Currency</h2>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base mb-4">
+                            The App offers virtual currency ("Coins") and content packs ("Packages") for purchase.
+                        </p>
+                        <div class="bg-gray-900/50 rounded-lg p-4 text-sm border border-gray-800">
+                            <p class="text-gray-400 mb-2"><strong class="text-gray-200">Final Sale:</strong> All purchases are final and non-refundable, except as required by applicable law or the policies of the platform provider (Apple App Store).</p>
+                            <p class="text-gray-400"><strong class="text-gray-200">No Real Value:</strong> Coins have no real-world monetary value and cannot be exchanged for cash or transferred to other accounts.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4 -->
+            <section id="content" class="glass-panel rounded-2xl p-6 md:p-8 hover:border-purple-500/30 transition-colors duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-pink-500/10 rounded-lg shrink-0">
+                        <i data-lucide="camera" class="w-6 h-6 text-pink-400"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold text-white mb-3">4. User Content & Photo Collection</h2>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base">
+                            The App allows you to capture photos and tag elements to create a personal collection ("User Content"). 
+                        </p>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base mt-2">
+                            You retain all rights to your User Content. However, you are solely responsible for the content you create. The App stores this data locally on your device. We do not claim ownership of your photos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5 -->
+            <section class="glass-panel rounded-2xl p-6 md:p-8 hover:border-purple-500/30 transition-colors duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-red-500/10 rounded-lg shrink-0">
+                        <i data-lucide="alert-triangle" class="w-6 h-6 text-red-400"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold text-white mb-3">5. Disclaimers</h2>
+                        <p class="text-gray-400 leading-relaxed text-sm md:text-base">
+                            The App is provided "AS IS". While we strive for scientific accuracy in our Periodic Table data, we do not warrant that the information is error-free. The App should not be used as the sole basis for critical scientific or safety decisions.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer id="contact" class="text-center pt-12 pb-8">
+                <h3 class="text-lg font-semibold text-white mb-2">Questions?</h3>
+                <p class="text-gray-400 text-sm mb-6">If you have any questions regarding these Terms, please contact us.</p>
+                
+                <a href="mailto:Zinr9863@outlook.com" class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-white font-bold shadow-lg hover:shadow-purple-500/25 transition-all transform hover:-translate-y-1">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Zinr9863@outlook.com
+                </a>
+                
+                <p class="text-gray-600 text-xs mt-12">
+                    &copy; 2026 Periodic Table Master. All rights reserved.
+                </p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
